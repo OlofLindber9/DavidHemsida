@@ -1,0 +1,26 @@
+.home-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #cab4a2;
+
+  background-image: url("../../assets/beige_white_1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;  /* Pin it to the bottom left corner */
+  background-size: auto 100%;        /* Keep aspect ratio, fit image height */
+}
+
+
+.home-nav {
+  margin-bottom: 20px;
+}
+
+.home-nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}

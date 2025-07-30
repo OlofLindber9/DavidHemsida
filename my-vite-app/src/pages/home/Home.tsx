@@ -1,11 +1,11 @@
-// src/pages/Home.tsx
 import { Link } from 'react-router-dom'
+import './Home.css'
 
 function Home() {
   return (
-    <div>
-      <nav style={{ marginBottom: 20 }}>
-        <Link to="/" style={{ marginRight: 10 }}>Home</Link>
+    <div className="home-container">
+      <nav className="home-nav">
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </nav>
 
