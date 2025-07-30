@@ -1,19 +1,29 @@
-import { Link } from 'react-router-dom'
-import './Home.css'
+import "./Home.css";
+import "./background.css";
+import HomeButton from "../../components/homeButton/homeButton";
 
 function Home() {
   return (
     <div className="home-container">
-      <nav className="home-nav">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-      </nav>
+      <div className="main-layout">
+        <div className="right-sidebar">
+          <HomeButton name="about me"/>
+          <HomeButton name="contact"/>
+          <HomeButton name="tour"/>
+          <HomeButton name="song list"/>
+        </div>
+      </div>
 
-      <main>
-        <h1>Welcome to the Home Page</h1>
-      </main>
+      <div className="background">
+        <span className="ball"></span>
+        <span className="ball"></span>
+        <span className="ball"></span>
+        <span className="ball"></span>
+        <span className="ball"></span>
+        <span className="ball"></span>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
