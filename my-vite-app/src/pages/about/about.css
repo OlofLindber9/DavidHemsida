@@ -1,0 +1,84 @@
+.about-container {
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0B6162;
+
+  background-image: url("../../assets/tealandwhite_3.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  background-size: auto 100%;
+
+
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.about-content {
+  max-width: 700px;
+  z-index: 1;
+  color: white;
+    margin-left: -30vw; /* ⬅️ shifts it left */
+  margin-top: -50vh;  /* ⬆️ shifts it up */
+}
+
+.about-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.about-background .ball {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  filter: blur(100px);
+}
+
+.about-background .ball:nth-child(1) {
+  top: 20%;
+  left: 60%;
+}
+
+.about-background .ball:nth-child(2) {
+  bottom: 20%;
+  right: 10%;
+}
+
+.about-background .ball:nth-child(3) {
+  top: 10%;
+  right: 30%;
+}
+
+.top-left-home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.top-left-home-button:hover {
+  background-color: #ffffff44;
+}

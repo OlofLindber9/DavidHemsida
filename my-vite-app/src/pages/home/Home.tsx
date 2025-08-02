@@ -2,12 +2,13 @@ import "./Home.css";
 import "./background.css";
 import HomeButton from "../../components/homeButton/homeButton";
 
+
 function Home() {
   return (
     <div className="home-container">
       <div className="main-layout">
         <div className="right-sidebar">
-          <HomeButton name="about me"/>
+          <HomeButton name="about me" to="/about" />
           <HomeButton name="contact"/>
           <HomeButton name="tour"/>
           <HomeButton name="song list"/>

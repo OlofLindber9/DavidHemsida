@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/home/Home'
-import About from './pages/About'
+import About from './pages/about/About'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
